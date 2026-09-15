@@ -1,0 +1,6 @@
+{
+  "name": "Programme Ambassadeur IDSW",
+  "description": "Découvrez le programme Ambassadeur IDSW, recommandez des étudiants intéressés par nos services et recevez une commission de 10 000 FCFA pour chaque inscription validée selon les conditions du programme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

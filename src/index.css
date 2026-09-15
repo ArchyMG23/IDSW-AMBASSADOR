@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #0b3820;
+    --color-primary-hover: #072615;
+    --color-primary-light: #15803d;
+    --color-accent: #eab308;
+    --color-accent-hover: #ca8a04;
+    --color-background: #fafbf9;
+    --color-surface: #ffffff;
+    --color-text: #111e17;
+    --color-muted: #5c6b62;
+    --color-border: #e2e8e4;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Syne', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Accessible focus ring */
+:focus-visible {
+  outline: 2px solid #0b3820;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f4f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3cec8;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8b9d93;
+}
+
